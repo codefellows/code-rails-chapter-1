@@ -1,11 +1,6 @@
-require "minitest/autorun"
-require "minitest/spec"
-require "capybara/webkit"
+require "spec_helper"
 
-include Capybara::DSL
-Capybara.default_driver = :webkit
-
-describe "My search" do
+describe "My search page" do
   it "has results" do
     visit "http://google.com"
     fill_in "q", with: "Code Fellows"
