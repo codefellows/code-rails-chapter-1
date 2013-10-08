@@ -5,6 +5,6 @@ require "welcome"
 
 describe Welcome do
   it "has a message" do
-    Welcome.new.message.must_match "Welcome Peeps!"
+    Welcome.new.message.must_match "Welcome Ladies and Gentlemen!"
   end
 end
