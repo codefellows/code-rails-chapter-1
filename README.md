@@ -6,7 +6,7 @@ Example code from Day 1.
 A few different types of tests are included here, as examples.
 
  * A specification for a simple ruby class
-   * [step-by-step blog post available](https://gist.github.com/ivanoats/6833823)
+   * [step-by-step blog post is available](https://gist.github.com/ivanoats/6833823)
  * A specificaiton for a simple web page
  * A specificaiton for a popular web service
  * A specificaiton for a newly-created Rails app
