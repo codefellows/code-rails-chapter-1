@@ -6,3 +6,5 @@ describe "A local web page" do
     page.text.must_include "Welcome aboard"
   end
 end
+
+
