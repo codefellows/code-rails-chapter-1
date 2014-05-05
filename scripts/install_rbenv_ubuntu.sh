@@ -14,9 +14,9 @@ exec $SHELL
 mkdir -p ~/.rbenv/plugins
 cd ~/.rbenv/plugins
 git clone git://github.com/sstephenson/ruby-build.git
-rbenv install 2.0.0-p247
+rbenv install 2.1.1
 rbenv rehash
-rbenv global 2.0.0-p247
+rbenv global 2.1.1
 gem install bundler
 rbenv rehash
 gem install capybara-webkit
